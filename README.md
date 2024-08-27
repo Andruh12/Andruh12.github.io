@@ -1,5 +1,5 @@
 # Creación del proyecto Encriptador de texto
-![The San Juan Mountains are beautiful!](/img/Logo.png "San Juan Mountains")
+![Encriptador!](/img/seguridad-blog.webp "Encriptador")
 
 Estado del proyecto: Finalizado
 
