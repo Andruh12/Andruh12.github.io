@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header_menu">
+            <a href="encriptador.html">
+                <img src="../img/Logo.png" class="logo">
+            </a>
+        </nav>
+    </header>
+
+    <main class="encriptador">
+        <section class="encriptador_texto">
+            <subsection>
+                <textarea class="area-texto" cols="30" rows="10" placeholder="Ingresa el texto..."></textarea>
+                <div class="botones">
+                <div class="botones_aviso">
+                <p class="aviso"><img src="img/Vector.png">Sólo minúsculas y palabras sin acentos.</p>
+                </div>
+                <button onclick="btnEncriptar()"; class="botones_estilo">Encriptar</button>
+                <button onclick="btnDesencriptar()"; class="botones_estilo">Desencriptar</button>
+                </div>
+            </subsection>
+            <subsection class="salida_texto">
+                <img class="muneco_imagen" src="img/Muneco.png">
+                <h4>Ningún mensaje fue encontrado</h4>
+                <p class="texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button onclick="copiar()"; class="btn_copiar">Copiar</button>
+            </subsection>
+            </section>    
+    </main>
+
+    <footer>
+        <p>Desarrollado por Andrés Hernández</p>
+    </footer>
+
+    <script src="encriptador.js"></script>
+
+</body>
+</html>
