@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --Fuente-Inter: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    padding: 2% 0% 0% 7%;
+}
+
+body{
+    box-sizing: border-box;
+    background-image: url(img/5172658.jpg);
+    background-size: cover;
+}
+
+.encriptador{
+    display: flex;
+    align-items: center;
+    margin:  3% 7%;
+    justify-content: space-between;
+}
+
+.encriptador_texto{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+
+}
+.area-texto{
+    z-index: 1;
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: var(--Fuente-Inter);
+    background-color:  rgba(255, 255, 255, 0.085);
+    backdrop-filter: blur(0.3125rem);
+    border-radius: 0.625rem;
+    height: 31.25rem;
+}
+
+.aviso{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-family: var(--Fuente-Inter);
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+
+.botones_estilo{
+    width: 50%;
+    margin-top: 1.875rem;
+    height: 4.1875rem;
+    border-radius: 24px;
+    border: 0.0625rem;
+    gap: 0.5rem;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: var(--Fuente-Inter);
+    
+
+}
+    
+
+.salida_texto{
+   font-family: var(--Fuente-Inter);
+   color: #FFFFFF;
+   font-size: 1.5rem;
+   font-weight: 700;
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.085);
+   border-radius: 1rem;
+   padding: 5% 5% 5% 5%;
+}
+
+.texto{
+font-family: var(--Fuente-Inter);
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+}
+
+.btn_copiar{
+    width: 50%;
+    margin-top: 1.875rem;
+    height: 4.1875rem;
+    border-radius: 1.5rem;
+    border: 0.0625px;
+    gap: 0.5rem;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: var(--Fuente-Inter);
+    align-items: center;
+}
+
+
+footer{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--Fuente-Inter);
+    color: #FFFFFF;
+}
+
+@media(max-width:1200px){
+
+    .header{
+        padding: 10%;
+    }
+
+    .header_menu{
+        justify-content: center;
+    }
+
+    .encriptador_texto{
+        flex-direction: column;
+        
+    }
+
+    .encriptador_texto{
+        width: auto;
+    }
+
+}
